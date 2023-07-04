@@ -8,7 +8,6 @@ import { CourseTopicComponent } from './course-topic/course-topic.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { InfoCourseTechnologiesComponent } from './info-course-technologies/info-course-technologies.component';
 import { InfoTeacherComponent } from './info-teacher/info-teacher.component';
-import { InfoCourseSpaceComponent } from './info-course-space/info-course-space.component';
 import { VideosComponent } from './videos/videos.component';
 import { NewsComponent } from './news/news.component';
 import { PriceOffersComponent } from './price-offers/price-offers.component';
@@ -26,7 +25,6 @@ import { FormatDetailsComponent } from './format-details/format-details.componen
     TestimonialsComponent,
     InfoCourseTechnologiesComponent,
     InfoTeacherComponent,
-    InfoCourseSpaceComponent,
     VideosComponent,
     NewsComponent,
     PriceOffersComponent,
