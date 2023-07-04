@@ -1,0 +1,47 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+	font-size: 2rem;
+	padding-bottom: 15px;
+}
+
+.line {
+    margin-left: 44%;
+}
+.bottom-line{
+    border-bottom: 1px solid hsl(0%, 69%, 61%);
+	width: 10%;
+	height: 3px;
+    
+	 
+    
+}
+.fea{
+	margin-top: 25px;
+}
+.heading {
+    width: 80%;
+}
+
+.heading h4 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.heading p {
+  text-align: left;
+}
+
+.content {
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.image {
+    width: 50%;
+}
