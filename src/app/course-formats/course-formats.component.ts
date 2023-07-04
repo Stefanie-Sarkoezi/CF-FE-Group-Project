@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { formats } from '../formats';
+import { Iformats } from '../Iformats';
 
 @Component({
   selector: 'app-course-formats',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./course-formats.component.scss']
 })
 export class CourseFormatsComponent {
-
+  formats : Iformats[] = formats;
 }

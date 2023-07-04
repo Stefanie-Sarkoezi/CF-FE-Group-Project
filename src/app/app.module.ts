@@ -16,6 +16,7 @@ import { CourseFormatsComponent } from './course-formats/course-formats.componen
 import { LinkMainWebsiteComponent } from './link-main-website/link-main-website.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { FormatDetailsComponent } from './format-details/format-details.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HeaderComponent } from './header/header.component';
     CourseFormatsComponent,
     LinkMainWebsiteComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    FormatDetailsComponent
   ],
   imports: [
     BrowserModule,
