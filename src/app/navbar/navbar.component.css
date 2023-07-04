@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* --------------- NAVBAR --------------- */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #fff, #910d0d);
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  font-family: poppins;
+  float: right;
+  text-align: left;
+}
+
+.navbar-nav li a:hover {
+  color: black;
+}
+
+.navbar-toggler-icon {
+  outline: none !important;
+}

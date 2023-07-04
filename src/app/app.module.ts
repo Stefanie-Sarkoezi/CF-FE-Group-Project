@@ -15,6 +15,7 @@ import { PriceOffersComponent } from './price-offers/price-offers.component';
 import { CourseFormatsComponent } from './course-formats/course-formats.component';
 import { LinkMainWebsiteComponent } from './link-main-website/link-main-website.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './footer/footer.component';
     PriceOffersComponent,
     CourseFormatsComponent,
     LinkMainWebsiteComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

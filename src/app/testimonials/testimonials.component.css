@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* --------------- NAVBAR --------------- */
+* {
+  font-family: Poppins;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.container {
+  padding-left: 1.5rem;
+}
+
+.container__testimonials {
+  display: flex;
+  justify-content: center;
+}
+
+.single-content {
+  position: relative;
+  transition: 0.3s;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.single-content .text-content,
+.single-content:after {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}
+
+.single-content:after {
+  content: "";
+  display: block;
+  background: #808080;
+  top: 20px;
+  bottom: 20px;
+  opacity: 0;
+  transform: rotate3d(-1, 1, 0, 100deg);
+  transition: 0.4s;
+}
+
+.single-content:hover:after {
+  opacity: 0.9;
+  transform: rotate3d(0, 0, 0, 0deg);
+}
+
+.single-content img {
+  width: 100%;
+  height: auto;
+}
+
+.text-content {
+  top: 45%;
+  opacity: 0;
+  z-index: 1;
+  transform: translate(10%, -30%);
+  transition: 0.3s;
+  text-align: center;
+  color: #fff;
+}
+
+.single-content:hover .text-content {
+  opacity: 1;
+  transform: translate(0, -50%);
+  transition-delay: 0.3s;
+}
+
+p {
+  color: black;
+  text-align: justify;
+  padding: 20px;
+}
+
+.col {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

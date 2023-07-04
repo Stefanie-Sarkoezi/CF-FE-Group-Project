@@ -1,0 +1,50 @@
+/* --------------- BANNER --------------- */
+#banner {
+  background-image: linear-gradient(to right, #fff, #910d0d);
+  font-family: poppins;
+  padding: 3%;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+#joinus {
+  font-size: 15px;
+  width: 140px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
+  background: linear-gradient(to right, #ff3527, #950a0a);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+#joinus a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#joinus img {
+  width: 30px;
+  display: none;
+}
+
+#joinus:hover img {
+  display: block;
+}
+
+#joinus:hover {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.develop-img {
+  width: 300px;
+  height: 300px;
+}
