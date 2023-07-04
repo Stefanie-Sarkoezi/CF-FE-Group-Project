@@ -16,6 +16,7 @@ import { LinkMainWebsiteComponent } from './link-main-website/link-main-website.
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { FormatDetailsComponent } from './format-details/format-details.component';
+import { ScrollToTopButtonComponent } from './scroll-to-top-button/scroll-to-top-button.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FormatDetailsComponent } from './format-details/format-details.componen
     LinkMainWebsiteComponent,
     FooterComponent,
     HeaderComponent,
-    FormatDetailsComponent
+    FormatDetailsComponent,
+    ScrollToTopButtonComponent
   ],
   imports: [
     BrowserModule,
