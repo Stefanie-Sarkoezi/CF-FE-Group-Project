@@ -1,1 +1,22 @@
-<p>videos works!</p>
+<div class="container text-center">
+    <div *ngFor="let video of videos">
+        <div class="card p-5">
+            <h2>{{ video.title }}</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="{{ video.link }}" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>{{ video.description }}</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
