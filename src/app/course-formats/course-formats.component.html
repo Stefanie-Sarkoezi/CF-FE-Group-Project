@@ -4,7 +4,8 @@
 <div class="container mb-5">
   <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
   <div *ngFor="let format of formats, index as i">
-    <div class="card shadow m-3" style="width: 20rem;">
+    <div class="d-flex justify-content-center">
+    <div class="card shadow m-3 d-flex" style="width: 20rem;">
       <h5 class="card-header bg-danger text-white text-center">{{format.name}}</h5>
       <div class="card-body d-flex flex-column justify-content-between">
         <p class="card-text"><span class="fw-bold">Duration:</span> {{format.duration}}</p>
@@ -15,5 +16,6 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
