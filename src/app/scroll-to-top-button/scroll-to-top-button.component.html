@@ -1,2 +1,3 @@
-<button (click)="scrollToTop()"> <img src="../assets/images/arrow-up-solid.png" alt="Arrow-up"> </button>
-
+<button *ngIf="showButton" (click)="scrollToTop()">
+    <img src="../assets/images/arrow-up-solid.png" alt="Arrow-up">
+</button>
