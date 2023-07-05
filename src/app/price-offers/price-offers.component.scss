@@ -1,5 +1,21 @@
 @import "../../styles.scss";
 
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.offers {
+  background-color: hsl(0%, 40%, 90%);
+  padding: 2%;
+}
+
 .btn-warning {
   background-color: $first-color;
+}
+
+.bottom-line {
+  border-bottom: 1px solid hsl(0%, 69%, 61%);
+  width: 30%;
+  height: 4px;
+  margin: auto;
 }

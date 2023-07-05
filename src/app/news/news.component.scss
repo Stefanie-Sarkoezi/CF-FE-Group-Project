@@ -1,7 +1,20 @@
 @import "../../styles.scss";
 
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel {
+  background-color: hsl(0%, 40%, 90%);
+  padding: 2%;
+}
+
 .carousel-inner {
   width: 80%;
+}
+
+.carousel-indicators {
+  position: relative;
 }
 
 .carousel-control-prev-icon {

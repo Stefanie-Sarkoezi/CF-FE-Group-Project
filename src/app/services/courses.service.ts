@@ -9,7 +9,7 @@ export class CoursesService {
       level: 'Intro',
       price: 500,
       duration: '2 Weeks',
-      description: `Are you curious about coding and want to embark on a journey to learn a powerful and versatile programming language? Look no further than our "Introduction to Python Programming" course! In just two weeks, you'll gain a solid foundation in Python and develop the skills necessary to pursue further programming endeavors.`,
+      description: `Are you curious about programming and want to embark on a journey to learn a powerful and versatile programming language? Look no further than our "Introduction to Python Programming" course! In just two weeks, you'll gain a solid foundation in Python and develop the skills necessary to pursue further programming endeavors.`,
       schedule: `Week 1: Foundations of Python Programming
       In the first week, we will focus on building a strong foundation in Python programming concepts. You'll learn about variables, data types, operators, control structures (such as loops and conditionals), and functions. Through interactive lectures, live coding demonstrations, and interactive coding exercises, you'll gain hands-on experience and gradually develop your coding skills.
 
@@ -20,11 +20,11 @@ export class CoursesService {
         'No prior programming experience is required for this course. However, basic computer literacy and familiarity with using a computer are recommended',
     },
     {
-      name: 'Basic Web Development with JavaScript and React',
+      name: 'Development with JavaScript and React',
       level: 'Basic',
       price: 2000,
       duration: '1 Month',
-      description: `Are you eager to dive into the world of web development and create dynamic, interactive websites? Look no further than our "Basic Web Development with JavaScript and React" course! In just one month, you'll learn the fundamentals of JavaScript programming language and the React framework, empowering you to build modern and engaging web applications.`,
+      description: `Are you eager to dive into the world of web development and create interactive websites? Look no further than our "Web Development with JavaScript and React" course! You'll learn the fundamentals of JavaScript programming language and the React framework, empowering you to build modern and engaging web applications.`,
       schedule: `Week 1: JavaScript Foundations
       In the first week, we will cover the basics of JavaScript programming. You'll learn about variables, data types, control structures, functions, and object-oriented programming principles. Through interactive coding exercises and projects, you'll develop a strong foundation in JavaScript syntax and concepts.
       
@@ -40,11 +40,11 @@ export class CoursesService {
       requirements: `No prior coding experience is required for this course. However, basic computer literacy and familiarity with HTML and CSS will be beneficial.`,
     },
     {
-      name: 'Advanced Cyber Security: A 3-Month Immersive Course',
+      name: 'Advanced Cyber Security Course',
       level: 'Advanced',
       price: 4500,
       duration: '3 Months',
-      description: `Are you passionate about protecting digital systems and networks from cyber threats? Take your cyber security skills to the next level with our "Advanced Cyber Security" course. Designed for aspiring professionals in the field, this three-month immersive program will equip you with advanced knowledge, techniques, and tools to combat modern cyber threats effectively.`,
+      description: `Are you passionate about protecting digital systems and networks from cyber threats? Take your cyber security skills to the next level with our "Advanced Cyber Security" course. Designed for aspiring professionals in the field, this immersive program will equip you with knowledge, techniques, and tools to combat cyber threats effectively.`,
       schedule: `Month 1: Foundations of Cyber Security
       Week 1: Introduction to Cyber Security
       In the first week, we'll explore the foundations of cyber security. You'll gain an understanding of the threat landscape, cybersecurity principles, and the legal and ethical considerations of the field.

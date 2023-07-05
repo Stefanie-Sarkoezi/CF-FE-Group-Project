@@ -36,3 +36,23 @@ export class PostsService {
     // ...
   }
 }
+
+// {
+//   headline: `Empowerment: The Significance of Programming Skills for the Working Class`,
+//   date: `July 3 2023`,
+//   image01: `../../assets/images/coding_01.jpg`,
+//   image02: `../../assets/images/coding_02.jpg`,
+//   image03: `../../assets/images/coding_03.jpg`,
+
+//   content01: `In our rapidly evolving digital era, the acquisition of programming skills is not limited to tech enthusiasts alone; it has become increasingly vital for the working class to embrace programming as a means to regain control over their professional lives. Supported by statistical evidence and real-world trends, this article delves into the importance of programming for employees, particularly in the age of silent quitting and wage disparities.`,
+
+//   content02: `Silent quitting, a growing phenomenon in the workforce, occurs when employees physically remain at their jobs while mentally disengaging due to low wages or limited growth opportunities. Programming provides an avenue for individuals caught in this cycle to break free. By developing programming skills, workers can explore alternative career paths, such as freelancing or remote work, offering the potential for higher wages and greater job satisfaction.
+
+//   Programming also levels the playing field for employees. With the pervasive influence of technology across industries, knowledge of programming empowers workers to automate tasks, streamline processes, and enhance efficiency. This not only increases productivity but also positions them as valuable assets to their employers. As the demand for tech-savvy professionals continues to soar, learning programming opens doors to better job prospects and increased earning potential.`,
+
+//   content03: `Equipping themselves with programming skills allows the working class to reclaim power in the employment landscape. Labor market data consistently reveals that programming-related occupations are among the fastest-growing and highest-paying in various sectors. By embracing coding, workers can actively participate in the digital revolution, breaking free from the cycle of low-wage jobs and demanding fair compensation and improved working conditions.
+
+//   Numerous online resources, coding boot camps, and community initiatives have made programming education more accessible than ever before. By dedicating time and effort to learning programming, the working class can unlock a world of opportunities and regain control over their professional lives.`,
+
+//   link: `Master your Coding skills now!`,
+// },
