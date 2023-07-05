@@ -1,8 +1,19 @@
 .card {
-  height: 13rem;
+  height: 15rem;
   width: 18rem;
   margin: 10px;
 }
 .card .btn {
   width: 8rem;
+}
+
+.bottom-line {
+  border-bottom: 1px solid hsl(0, 69%, 61%);
+  width: 10%;
+  height: 3px;
+  margin-left: 45%;
+}
+
+.card-header {
+  height: 4rem;
 }/*# sourceMappingURL=course-formats.component.css.map */

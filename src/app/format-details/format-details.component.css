@@ -9,4 +9,12 @@
   height: 10rem;
   width: 23rem;
   margin: 10px;
+}
+
+.bottom-line {
+  border-bottom: 1px solid hsl(0, 69%, 61%);
+  width: 10%;
+  height: 3px;
+  margin-left: 45%;
+  margin-top: 1%;
 }/*# sourceMappingURL=format-details.component.css.map */
