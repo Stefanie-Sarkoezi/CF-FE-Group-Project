@@ -15,8 +15,6 @@ p {
   padding-right: 2rem;
 }
 
-@media only screen and (min-width: 368px) {
-  .container {
-    margin-top: 4rem;
-  }
+h3 {
+  margin-bottom: 3rem;
 }
