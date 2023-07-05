@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
 #services {
   font-family: Poppins;
 }
@@ -15,4 +13,10 @@ p {
 .block {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+@media only screen and (min-width: 368px) {
+  .container {
+    margin-top: 4rem;
+  }
 }
