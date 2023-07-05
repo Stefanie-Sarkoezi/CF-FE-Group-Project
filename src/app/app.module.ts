@@ -12,7 +12,6 @@ import { VideosComponent } from './videos/videos.component';
 import { NewsComponent } from './news/news.component';
 import { PriceOffersComponent } from './price-offers/price-offers.component';
 import { CourseFormatsComponent } from './course-formats/course-formats.component';
-import { LinkMainWebsiteComponent } from './link-main-website/link-main-website.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { FormatDetailsComponent } from './format-details/format-details.component';
@@ -30,7 +29,6 @@ import { ScrollToTopButtonComponent } from './scroll-to-top-button/scroll-to-top
     NewsComponent,
     PriceOffersComponent,
     CourseFormatsComponent,
-    LinkMainWebsiteComponent,
     FooterComponent,
     HeaderComponent,
     FormatDetailsComponent,
