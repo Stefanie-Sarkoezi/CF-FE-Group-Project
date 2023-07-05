@@ -15,6 +15,7 @@ export class CoursesService {
 
       Week 2: Practical Applications and Project-based Learning
       In the second week, we'll dive into practical applications of Python. You'll explore file handling, data manipulation, and learn how to interact with external libraries and APIs. We'll introduce you to the power of Python in various domains such as web development, data analysis, and automation. During this week, you'll also work on a project of your choice, applying the skills you've learned to build a small-scale application or solve a real-world problem.`,
+
       requirements:
         'No prior programming experience is required for this course. However, basic computer literacy and familiarity with using a computer are recommended',
     },
@@ -35,6 +36,7 @@ export class CoursesService {
       
       Week 4: Building React Applications
       During the final week, we'll dive deeper into React development. We'll explore routing, managing application state with context or Redux, and working with external libraries and APIs to enhance your applications. You'll work on a final project, applying your knowledge of JavaScript and React to create a fully functional web application.`,
+
       requirements: `No prior coding experience is required for this course. However, basic computer literacy and familiarity with HTML and CSS will be beneficial.`,
     },
     {
@@ -81,6 +83,7 @@ export class CoursesService {
       
       Week 4: Cyber Security Capstone Project
       During the final week, you'll work on a comprehensive capstone project that integrates the knowledge and skills gained throughout the course. You'll tackle a real-world cyber security challenge, applying advanced techniques to analyze, detect, and mitigate threats.`,
+
       requirements: `This is an advanced-level course designed for individuals with prior knowledge and experience in cyber security fundamentals. A strong understanding of networking, programming, and operating systems is recommended.`,
     },
   ];

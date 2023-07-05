@@ -11,7 +11,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner mx-auto">
             <div class="carousel-item active">
                 <div class="card text-center">
                     <img src="../../assets/images/coding_01.jpg" class="img-fluid" alt="">
@@ -162,25 +162,33 @@
 <hr> -->
 
 <!-- NEWS POST START -->
-<hr>
 
 <div class="container">
     <!-- ARTICLE HEADER START -->
     <div *ngFor="let post of posts" class="col">
         <div class="text-center my-5">
             <h1>{{ post.headline }}</h1>
-            <h5 class="text-muted">{{ post.date }}</h5>
             <hr>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12"><img src="{{ post.image01 }}" class="img-fluid p-2" alt="">
+            <h5 class="text-muted text-start">posted on {{ post.date }}</h5>
+            <div class="row text-start mb-5">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="{{ post.image01 }}" class="img-fluid p-2" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p>{{ post.content01 }}</p>
+                    <p class="lh-lg w-75">{{ post.content01 }}</p>
                 </div>
             </div>
-            <hr>
-            <div class="text-center">
-                <p>{{ post.content02 }}</p>
+            <hr class="mb-5">
+            <div class="text-start mb-5">
+                <p class="lh-lg">{{ post.content02 }}</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="{{ post.image02 }}" class="img-fluid p-5" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="{{ post.image03 }}" class="img-fluid p-5" alt="">
+                </div>
             </div>
         </div>
     </div>

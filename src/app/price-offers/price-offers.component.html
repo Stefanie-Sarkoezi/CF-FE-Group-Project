@@ -1,45 +1,39 @@
 <div class="container py-3">
-    <header>
-        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-3 fw-bold">Cost Overview</h1>
-            <p class="fs-5 text-muted mt-4 mb-5">Quickly build an effective pricing table for your potential customers
-                with
-                this
-                Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
-            </p>
-            <hr>
-        </div>
-    </header>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h2 class="display-3 fw-bold">Cost Overview</h2>
+        <p class="fs-5 text-muted mt-4 mb-5">Unlock Your Coding Potential: Dive into our Premium Developer and
+            Programming Courses at Unbeatable Prices! Level up your skills and embark on a journey of continuous
+            learning with industry experts.
+        </p>
+        <hr>
+    </div>
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 mb-3 text-center">
+        <div *ngFor="let course of courses" class="col">
+            <div class="card h-100 mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 text-white bg-danger border-danger">
+                    <h4 class="my-0 fw-bold">
+                        {{ course.name }}
+                    </h4>
+                </div>
+                <div class="card-body d-flex flex-column">
 
-    <main>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-            <div *ngFor="let course of courses" class="col">
-                <div class="card h-100 mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3 text-white bg-danger border-warning">
-                        <h4 class="my-0 fw-bold">
-                            {{ course.name }}
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <h4 class="mb-3">
+                            <li>{{ course.duration }}</li>
                         </h4>
+                        <li>{{ course.description }}</li>
+                    </ul>
+                    <div class="m-auto">
+                        <h3 class="card-title pricing-card-title align-flex-end">
+                            {{ course.price }} €
+                        </h3>
                     </div>
-                    <div class="card-body d-flex flex-column">
 
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <h4 class="mb-3">
-                                <li>{{ course.duration }}</li>
-                            </h4>
-                            <li>{{ course.description }}</li>
-                        </ul>
-                        <div class="m-auto">
-                            <h1 class="card-title pricing-card-title align-flex-end">
-                                {{ course.price }} €
-                            </h1>
-                        </div>
-
-                        <button type="button" class="w-100 btn btn-lg text-white btn-danger align-flex-end">
-                            Sign up
-                        </button>
-                    </div>
+                    <button type="button" class="w-100 btn btn-lg text-white btn-danger align-flex-end">
+                        Sign up
+                    </button>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 </div>

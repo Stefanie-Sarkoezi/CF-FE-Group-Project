@@ -6,5 +6,6 @@ export interface Post {
   image03: string;
   content01: string;
   content02: string;
+  content03: string;
   link: string;
 }
