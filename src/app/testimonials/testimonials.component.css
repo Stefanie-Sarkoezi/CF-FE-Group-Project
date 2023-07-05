@@ -36,7 +36,7 @@
 .single-content:after {
   content: "";
   display: block;
-  background: #808080;
+  background: #f0dbdb;
   top: 20px;
   bottom: 20px;
   opacity: 0;
