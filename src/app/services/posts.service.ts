@@ -7,9 +7,9 @@ export class PostsService {
     {
       headline: `Unlocking the Power of the Digital Era: Why Programming and Coding Skills are Essential in Today's World`,
       date: `July 3 2023`,
-      image01: `../../assets/images/coding_01.jpg`,
-      image02: `../../assets/images/coding_02.jpg`,
-      image03: `../../assets/images/coding_03.jpg`,
+      image01: `../assets/images/coding_01.jpg`,
+      image02: `../assets/images/coding_02.jpg`,
+      image03: `../assets/images/coding_03.jpg`,
 
       content01: `In the fast-paced, technology-driven world we live in today, possessing programming and coding skills has become increasingly crucial. Whether you're a student, a professional, or an entrepreneur, having a solid skillset in programming opens up a world of opportunities and empowers you to thrive in the digital era.
 
